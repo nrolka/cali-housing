@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 st.title('California Housing Data Set (1990) by Nate Rolka')
-df = pd.read_csv('housing.csv')
+housing = pd.read_csv('housing.csv')
 
 # note that you have to use 0.0 and 40.0 given that the data type of population is float
 default = housing["median_house_value"].median()
