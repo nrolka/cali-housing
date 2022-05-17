@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
 
 st.title('California Housing Data Set (1990) by Nate Rolka')
 housing = pd.read_csv('housing.csv')
